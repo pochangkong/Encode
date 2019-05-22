@@ -1,0 +1,5 @@
+FFVideoSource("F:\bat_encode\temp\1.mkv")
+Crop(0,20,-0,-20)
+#LanczosResize(1280,696 )
+Subtitle("Source",y=37,align=7)
+ffinfo(framenum=true,frametype=true,cfrtime=false,vfrtime=false,version=false,cropping=false,colorrange=false,colorspace=false,sar=false)

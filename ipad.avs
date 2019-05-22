@@ -1,0 +1,6 @@
+LWLibavVideoSource("F:\bat_encode\Encode_temp\1.mkv", threads=1)
+#DGSource("h:\pad\a.dgi")
+SupTitle("F:\bat_encode\Encode_temp\The Old Capital 2016 1080p BluRay AVC DD5.1-DIY@TTG_T3_Subtitle - Chinese.sup", forcedOnly=false, swapCbCr=false, relocate=true, relocOffset="0,0,0,0")
+#vobsub("h:\pad\a.idx")  
+#Textsub("h:\pad\a.srt")
+spline36resize(1280,720)
